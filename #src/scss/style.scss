@@ -1,4 +1,511 @@
 body {
-	color: darkblue;
-	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+}
+div, p, form, input, button {
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.green{
+	color: #b1ca61;
+}
+
+// HEADER BLOCK
+
+.header{
+	background: url("../img/bg.png") no-repeat center top /cover;
+	height: 720px;
+}
+.header__logo{
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	margin-right: 60px;
+	cursor: pointer;
+}
+
+.header__logo p{
+	font-size: 22px;
+	font-weight: 900;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.header__bull{
+	display: flex;
+	margin-top: 25px;
+}
+
+.header__bull-item{
+	display: flex;
+	margin-right: 30px;
+}
+
+.header__bull-item p {
+	font-size: 16px;
+	font-style: italic;
+	color: #666666;
+	margin-left: 10px;
+}
+
+.header__bull-item img{
+	width: 40px;
+	height: 40px;
+}
+
+
+.header__content-pic{
+	.foot{
+		position: absolute;
+		top: -90px;
+		left: -350px;
+	}
+	.pills{
+		position: absolute;
+		top: 380px;
+		left: -100px;
+	}
+}
+h1{
+	font-weight: 900;
+}
+
+.header__content-info{
+	width: 400px;
+	font-size: 44px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: 0em;
+}
+
+.header__content-info-o{
+	font-size: 34px;
+	border-bottom: #ff6b00 5px solid;
+}
+.header__content-info-small{
+	font-size: 34px;
+}
+
+.header__content-info-g{
+	font-size: 34px;
+	border-bottom: #a7c93d 5px solid;
+}
+
+.intro-info{
+	display: flex;
+	margin-top: 30px;
+}
+
+.intro-info-par{
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.intro-info-circle{
+	margin-top: 30px;
+	background-color: #a7c93d;
+	min-width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	-webkit-box-shadow: 0px -1px 5px 11px rgba(232,237,201,1);
+	-moz-box-shadow: 0px -1px 5px 11px rgba(232,237,201,1);
+	box-shadow: 0px -1px 5px 11px rgba(232,237,201,1);
+}
+
+.intro-info-o{
+	font-size: 20px;
+	border-bottom: #a7c93d 3px solid;
+}
+
+.intro-info-g{
+	font-size: 20px;
+	border-bottom: #a7c93d 3px solid;
+}
+
+.arrow{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.form{
+	margin-top: 30px;
+	background: url("../img/form.png") no-repeat center top /cover;
+	height: 570px;
+	width: 270px;
+}
+
+form h2{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 75px;
+}
+
+form h2 span{
+	color: #ff6b00;
+}
+
+.form__price{
+	display: flex;
+	font-size: 14px;
+	align-items: center;
+	justify-content: center;
+    margin-top: 10px;
+}
+.form__price_item{
+	margin-right: 10px;
+}
+.form__price_item{
+  height: 40px;
+  text-align: center;
+}
+
+.form__old-price{
+  margin-bottom: 5px;
+}
+
+.form__input{
+  width: 200px;
+  margin: 0 auto;
+}
+
+.form__input_item{
+  width: 200px;
+  margin-top: 40px;
+  height: 55px;
+  background-color: #eef2f7;
+  border-radius: 50px;
+  border: 1px solid #f3f5f8;
+	padding-left: 20px;
+}
+
+.form__input_item:focus{
+	outline: none;
+	padding-left: 30px;
+
+}
+
+.form__input_item:last-child{
+  margin-top: 10px;
+}
+
+.form__input_item::placeholder {
+	color:#666;
+	padding-left: 50px;
+	font-size: 16px;
+	height: 23px;
+	background: url("../img/man.png") no-repeat 15px center;
+}
+.form__input_item:focus{
+	border: none;
+}
+
+.form__input_item:last-child::placeholder{
+	background: url("../img/tel.png") no-repeat 15px center;
+}
+
+.form__btn{
+	width: 180px;
+	margin: 0 auto;
+}
+.form__header{
+	display: flex;
+	height: 15px;
+	align-items: center;
+	position: absolute;
+	left: 27%;
+	margin-top: -40px;
+	font-size: 14px;
+}
+.form__header img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn{
+	width: 180px;
+	height: 55px;
+	background-color: #ffc002;
+	border-radius: 50px;
+	border: 1px solid #ffd130;
+	margin-top: 15px;
+	padding-top: 10px;
+	font-weight: 700;
+	font-size: 16px;
+	-webkit-box-shadow: 0px 0px 0px 8px rgba(255,202,2,1);
+	-moz-box-shadow: 0px 0px 0px 8px rgba(255,202,2,1);
+	box-shadow: 0px 0px 0px 8px rgba(255,202,2,1);
+	line-height: 20px;
+}
+
+.btn-group-lg{
+	font-size: 28px;
+}
+
+.form__footer{
+	margin-top: 20px;
+	letter-spacing: 0.01em;
+}
+
+.form__footer p{
+	font-size: 18px;
+	text-align: center;
+	line-height: 18px;
+}
+
+.form__footer_security{
+	width: 90%;
+	margin: 0 auto;
+	height: 45px;
+	line-height: 45px;
+	background-color: #eef2f7;
+	border-radius: 10px;
+	display: flex;
+	padding-top: 15px;
+}
+
+.form__footer_security img{
+	width: 19px;
+	height: 20px;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+.form__arrow{
+	position: absolute;
+	top: 190px;
+	right: -10px;
+}
+
+.form__footer_security p{
+	font-size: 14px;
+	text-align: center;
+	color: #666;
+}
+
+.header__wave{
+	height: 179px;
+	background: url("../img/footer-head.png")repeat bottom /cover;
+}
+
+// CONTENT BLOCK
+.content{
+	margin-top: 150px;
+	text-align: center;
+}
+
+.content__heading h2{
+	font-size: 48px;
+	font-weight: 900;
+	margin-bottom: 40px;
+}
+
+.content__heading p{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.content__title{
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+
+.content__title h3{
+	font-weight: 500;
+	font-size: 22px;
+	margin-left: 20px;
+	width: 110px;
+}
+
+.content__main p{
+	width: 310px;
+	color: #444;
+	font-size: 18px;
+	text-align: left;
+	margin-top: 30px;
+	padding-top: 5px;
+	margin-bottom: 50px;
+}
+
+.line{
+	width: 50px;
+	height: 3px;
+	background-color: #becbd8;
+	position: absolute;
+	top: 210px;
+}
+
+.content__footer{
+	border: 3px solid #f4d3bb;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.content__wrapper_img{
+	width: 155px;
+	background-color: #fff;
+	margin: -20px auto 0;
+}
+
+.content__footer img{
+	width: 55px;
+	margin: 0 auto;
+}
+
+.content__footer p{
+	padding: 45px 90px;
+	color: #444444;
+	font-size: 22px;
+}
+//Медиазапросы
+@media screen and (max-width: 1200px){
+	.header__content-pic{
+		.foot{
+			position: absolute;
+			top: -120px;
+			left: -450px;
+		}
+		.pills{
+			position: absolute;
+			top: 380px;
+			left: -100px;
+		}
+	}
+	.header__logo{
+		justify-content: center;
+	}
+
+	.header__content-info{
+		margin-top: 5px;
+	}
+
+	.intro-info-par{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+
+	.form__footer p {
+		//margin-bottom: 20px;
+	}
+
+	.form__footer_security{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.header__bull{
+		margin-bottom: 30px;
+	}
+
+	.header{
+		height: 830px;
+	}
+
+	.header__content-pic{
+		.foot{
+			display: none;
+		}
+		.pills{
+			display: none;
+		}
+	}
+	.form__header{
+		left: 33%;
+		margin-top: -50px;
+	}
+
+	.form{
+		margin-top: -20px;
+		height: 680px;
+	}
+	.intro-info-par{
+		margin-top: 10px;
+		font-size: 15px;
+		width: 250px;
+		margin-bottom: 10px;
+	}
+
+	.form__input_item{
+		margin-bottom: 40px;
+	}
+
+	form h2{
+		margin-top: 90px;
+		margin-bottom: 30px;
+	}
+
+	.form__price{
+		margin-bottom: 30px;
+	}
+
+	.size{
+		font-size: 18px;
+	}
+
+	.form h2{
+		font-size: 18px;
+	}
+
+	.form__arrow{
+		display: none;
+	}
+
+	.content{
+		margin-top: 50px;
+	}
+
+	.form__footer p{
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 769px){
+	.header__bull-item p{
+		font-size: 12px;
+	}
+
+	.header__content-info{
+		margin-top: -20px;
+	}
+
+	.form{
+		width: 400px;
+		margin: 90px auto;
+		height: 700px;
+	}
+
+	.content{
+		margin-top: 720px;
+	}
+
+	.content__main{
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 440px){
+	.header__bull{
+		flex-direction: column;
+	}
+	.header__bull-item{
+		margin-bottom: 30px;
+	}
 }
