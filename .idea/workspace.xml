@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6234be9a-3ded-4e00-8743-213b579905a7" name="Default Changelist" comment="" />
+    <list default="true" id="6234be9a-3ded-4e00-8743-213b579905a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fls-gulp/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fls-gulp/img/ill-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fls-gulp/img/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fls-gulp/img/pills.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fls-gulp/img/protec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fls-gulp/img/tel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls-gulp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/fls-gulp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls-gulp/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/fls-gulp/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fls-gulp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fls-gulp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1elOxSDa5IjG1Ni6mOfIJeCxedd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -36,11 +57,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594892958808</updated>
-      <workItem from="1594892960936" duration="7725000" />
+      <workItem from="1594892960936" duration="9939000" />
+      <workItem from="1594971524412" duration="8860000" />
+      <workItem from="1594986825585" duration="15919000" />
+      <workItem from="1595057169239" duration="21094000" />
+      <workItem from="1595097242691" duration="3727000" />
+      <workItem from="1595138862694" duration="9871000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

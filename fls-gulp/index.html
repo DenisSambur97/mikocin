@@ -3,16 +3,167 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.min.css">
-		<title>Gulp</title>
+
+		<title>Микоцин</title>
 	</head>
 	<body>
 	<header class="header">
 		<div class="container">
-			<div class="col-md-12">
-				<h1>Hello</h1>
+			<div class="row">
+				<div class="offset-1"></div>
+				<a class="header__logo col-xl-2" href="#">
+					<img src="img/logo.png" alt="Mikocin">
+					<p>Микоцин</p>
+				</a>
+
+				<div class="col-xl-8">
+					<div class="header__bull">
+						<div class="header__bull-item">
+							<img src="img/bull1.png" alt="Boulet">
+							<p>№1 Для избавления от любого типа грибка</p>
+						</div>
+
+						<div class="header__bull-item">
+							<img src="img/bull2.png" alt="Boulet">
+							<p>Рекомендован дерматологами</p>
+						</div>
+
+						<div class="header__bull-item">
+							<img src="img/bull3.png" alt="Boulet">
+							<p>13000+ довольных клиентов за 2018 год  </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="header__content col-xl-9 col-lg-9 col-md-6 ">
+					<div class="header__content-pic">
+						<img class="foot" src="img/299.png" alt="Foot">
+					</div>
+					<div class="header__content-info">
+						<h1>Комплексное избавление от грибка —<br> <span class="header__content-info-o">изнутри</span>
+							<span class="header__content-info-small"> и</span>
+							<span class="header__content-info-g">снаружи</span></h1>
+						<div class="intro-info">
+							<div class="intro-info-circle">2в1</div>
+							<p class="intro-info-par">Комплекс Микоцин <b>устраняет зуд, неприятный запах</b> и возвращает эстетический вид</p>
+						</div>
+						<img src="img/arrrow.png" alt="Arrow" class="arrow">
+						<div class="intro-info">
+							<div class="intro-info-circle">1</div>
+							<p class="intro-info-par"><span class="intro-info-o size"><b>Таблетки</b></span> Микоцин <b>уничтожают все виды грибка</b> на ногтях и коже</p>
+						</div>
+						<div class="intro-info">
+							<div class="intro-info-circle">2</div>
+							<p class="intro-info-par"><span class="intro-info-g"><b>Гель</b></span> Микоцин <b>восстанавливает кожу</b> и создает на ней <b>защитный барьер</b></p>
+						</div>
+					</div>
+				</div>
+				<div class="form col-xl-3 col-lg-3 col-md-6">
+					<form action="#">
+						<div class="form__header">
+							<img src="img/bus.png" alt="Bus">
+							<p>Бесплатно</p>
+						</div>
+						<h2>Успейте заказать со скидкой <br><span>до 10.09.2018</span></h2>
+						<div class="form__price">
+							<div class="form__price_item">
+								<p class="form__old-price">старая цена</p>
+								<img src="img/918.png" alt="Old Price">
+							</div>
+							<div class="form__price_item">
+								<p>новая цена</p>
+								<img src="img/459.png" alt="New Price">
+							</div>
+						</div>
+						<img class="form__arrow" src="img/form-arrow.png" alt="Form Arrow">
+						<div class="form__input">
+							<input id="input_text" class="form__input_item" type="text" placeholder="Имя">
+							<input id="input_tel" class="form__input_item" type="tel" placeholder="Телефон">
+						</div>
+						<div class="form__btn">
+							<a class="btn" href="#"><span class="btn-group-lg">Заказать</span><br> со скидкой</a>
+						</div>
+						<div class="form__footer">
+							<p>Осталось <span class="green">10</span> упаковок <br>со скидкой</p>
+							<div class="form__footer_security">
+								<img src="img/protec.png" alt="Protection">
+								<p>Ваши данные защищены!</p>
+							</div>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
+		<div  class="header__wave"></div>
 	</header>
+	<section class="content">
+		<div class="container">
+			<div class="row">
+				<div class="content__heading col-xl-12">
+					<img src="img/logo.png" alt="Mikocin">
+					<h2>Грибок – это опасная инфекция</h2>
+					<p>которая угрожает вам и вашим близким, ведь с каждым днем грибок приводит к:</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="content__main col-xl-4 col">
+					<div class="content__title">
+						<img src="img/ill-1.png" alt="Allergy">
+						<h3>Сложным формам аллергии</h3>
+					</div>
+					<div class="line"></div>
+					<p>
+						Может появится сильная реакция
+						на на привычную пищу, одежду,
+						средства гигиены
+					</p>
+				</div>
+				<div class="content__main col-xl-4 col">
+					<div class="content__title">
+						<img src="img/ill-2.png" alt="Allergy">
+						<h3>Потере ногтя и ампутации пальца</h3>
+					</div>
+					<div class="line"></div>
+					<p>
+						После полного разрушения ногтя
+						грибок распространяется на палец,
+						что приводит к его ампутации
+					</p>
+				</div>
+				<div class="content__main col-xl-4 col">
+					<div class="content__title">
+						<img src="img/ill-3.png" alt="Allergy">
+						<h3>Тяжелому поражению внутренних органов</h3>
+					</div>
+					<div class="line"></div>
+					<p>
+						Может привести к повреждениям
+						мозга, слепоте, отказу печени, почек
+						и сердца
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="content__footer col-xl-12">
+					<div class="content__wrapper_img">
+						<img src="img/diagrama.png" alt="Diagrama">
+					</div>
+					<p><b>Статистика:</b> каждые 60 секунд врачи дагностируют опасные поражения
+                        внутрених органов, вызванные грибком, у 1-го пациент
+                    </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>
